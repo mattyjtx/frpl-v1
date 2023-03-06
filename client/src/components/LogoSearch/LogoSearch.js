@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../../img/frapple-logo-1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {UilSearch} from '@iconscout/react-unicons'
+import './LogoSearch.css'
 
 const LogoSearch = () => {
   return (
@@ -9,7 +11,7 @@ const LogoSearch = () => {
         <div className='Search'>
             <input type="text" placeholder='#explore' />
             <div className='s-icon'>
-            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
+            <UilSearch/>
             </div>
         </div>
     </div>
